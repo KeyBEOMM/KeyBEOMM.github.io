@@ -7,7 +7,7 @@ description: Creataing a GitHub pages site & Customizing it!
 media_subpath: /assets/post/HelloBlog/
 ---
 
-![GitHub Page 사진](githubpagewhite.png){: w="700" h="700" }{: .light }
+![GitHub Page 사진](githubpage_white.png){: w="700" h="700" }{: .light }
 ![GitHub Page 사진](githubpage_dark.png){: w="700" h="700" }{: .dark }
 
 
