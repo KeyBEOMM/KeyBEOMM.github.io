@@ -31,7 +31,7 @@ media_subpath: /assets/post/HelloBlog/
 
 
 ### 코드 박스
-Markdown symbols ``` can easily create a code block as follows:
+Markdown symbols * '```'* can easily create a code block as follows:
 ```cpp
 cout << HelloWorld! << endl;
 ```
