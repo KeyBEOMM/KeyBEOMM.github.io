@@ -1,7 +1,7 @@
 ---
 title: "GitHub Pages 시작하기"
 date: 2025-05-06 18:08:00 +0900
-categories: [Hit the SW, GitHub pages]
+categories: [Hit the SW, GitHub Pages]
 tags: [gitHub pages, jekyll, chirpy, velog]
 description: Creataing a GitHub pages site & Customizing it! 
 media_subpath: /assets/post/HelloBlog/

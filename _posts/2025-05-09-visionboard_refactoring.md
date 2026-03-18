@@ -31,4 +31,4 @@ hand tracking 및 landmark 따는 방법 찾아봤지만 mediapipe가 제일 나
 > 2023년 3월 1일부터 아래에 나열된 MediaPipe 기존 솔루션에 대한 지원이 종료되었습니다. 다른 모든 MediaPipe 기존 솔루션은 새 MediaPipe 솔루션으로 업그레이드됩니다. 
 {: .prompt-info }
 
-새로운 Solution으로 업그레이드되었다고 한다..!
+새로운 Solution으로 업그레이드되었다고 한다..!  
