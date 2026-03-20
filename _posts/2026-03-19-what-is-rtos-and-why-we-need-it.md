@@ -1,7 +1,7 @@
 ---
 title: "What is RTOS"
 description: "로봇 제어를 위한 Real-Time Operating System(RTOS)의 설계 철학과 하드웨어 레벨의 Context Switch 분석"
-author: GI-BEOM
+author: KEYBEOMM
 date: 2026-03-19 03:00:00 +0900
 categories: [Embedded Systems, RTOS]
 tags: [rtos, freertos, esp32, architecture, scheduling]
@@ -11,6 +11,16 @@ tags: [rtos, freertos, esp32, architecture, scheduling]
 
 ---
 
+## KeyWord
+- 커널 : 운영체제의 핵심 부분으로, 하드웨어 자원을 관리하고 프로세스(스레드)를 스케줄링하는 역할을 합니다.
+        범용 운영체제는 여러 사용자가 컴퓨터의 프로세서에 동시에 접근할 수 있도록 하는 커널을 사용.
+
+- 멀티테스킹 : 운영체제가 여러 스레드를 실행하여 각 프로그램들이 동시에 실행되는 것처럼 보이게 하는 기술.
+- 스케줄러 : 커널의 핵심 부분으로, 프로세스(스레드)를 스케줄링하는 역할을 합니다.
+- 커널(Kernel): 운영체제의 심장인 커널은 지금 이 순간 CPU가 어떤 '태스크'를 실행해야 할지 결정합니다. 이를 스케줄링이라고 한다.
+
+
+---
 ## 1. Intro. RTOS를 이해하기 위한 필수 용어 4가지
 
 ### ① Preemptive Scheduling (선점형 스케줄링)

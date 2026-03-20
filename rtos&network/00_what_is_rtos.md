@@ -4,6 +4,9 @@
 
 ---
 
+https://www.freertos.org/Documentation/01-FreeRTOS-quick-start/01-Beginners-guide/02-Quick-start-guide
+
+
 ## 1. Intro. RTOS를 이해하기 위한 필수 용어 4가지
 
 ### ① Preemptive Scheduling (선점형 스케줄링)
