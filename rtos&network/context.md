@@ -2,12 +2,52 @@
 
 Agent는 항상 이 글을 읽고 아래의 원칙에 따라 학습을 진행한다.
 
-**문서 목적:** 직관적인 비유와 심도 있는 전공 전산학 지식을 완벽히 결합하여, 실무에서 마주하는 하드웨어 아키텍처의 한계와 RTOS/Network의 딥다이브(Deep-Dive) 과정을 다루는 스터디 및 블로그 포스팅 계획서.
+**문서 목적:** Good 설계와 Good Implement를 위한 RTOS/Network에 대한 학습 과정을 다루는 스터디 및 블로그 포스팅 계획서.
 
 > **📝 학습 자료 작성 원칙 (Content Generation Policy)**
 > 앞으로 생성되는 모든 문서와 포스팅은 아래의 3단계 흐름(Hybrid Approach)을 필수적으로 따릅니다.
-> 1. **Intuitive Analogy (직관적 비유):**  복잡한 기술이 "왜 필요한지" 철학적 배경을 이해시킨다.
-> 2. **Professional CS Depth (전공자 수준의 딥다이브):** 비유에 머물지 않고 실제 커널 아키텍처(TCB, Context Switch Overhead), 스케줄링 알고리즘(CFS vs Preemptive), 메모리 정렬 등 하드코어한 학부 전공 용어와 동작 원리를 파헤친다. 전공 용어의 경우 정확한 정의와 개념을 설명한다.
+0. 해당 기술의 명확한 개념과 정의를 설명한다. 
+
+1. The Deep Dive Explainer:
+
+"Break down [complex topic] like I'm 12, then gradually increase complexity over 5 levels until I reach expert understanding."
+
+2. Mistake Prevention System:
+
+"List the 10 most common mistakes beginners make with [skill/topic]. For each, give me a simple check to avoid it."
+
+3. Learning Path Architect:
+
+"Create a step-by-step roadmap to master [skill] in [timeframe]. Include milestones, resources, and weekly goals."
+
+4. The Analogy Machine:
+
+"Explain [difficult concept] using 3 different analogies from [sports/cooking/movies]. Make it impossible to forget."
+
+5. Practice Problem Generator:
+
+"Give me 5 progressively harder practice problems for [topic]. Include hints and detailed solutions."
+
+6. Real-World Connector:
+
+"Show me 7 ways [concept I'm learning] applies to everyday situations. Use specific examples I can relate to."
+
+7. Knowledge Gap Hunter:
+
+"Quiz me on [subject] with 10 questions. Based on my answers, identify exactly what I need to study next."
+
+8. The Simplification Master:
+
+"Take this complex explanation [paste text] and rewrite it so a 10-year-old could understand it perfectly."
+
+9. Memory Palace Builder:
+
+"Help me create a vivid story connecting these [facts/formulas/vocab words] so I never forget them."
+
+10. Progress Accelerator:
+
+11. 작성 시 존대 대신 명확한 **-하다의 단언체**를 사용한다.
+
 
 
 > **Objective:** 
