@@ -5,6 +5,7 @@ author: KEYBEOMM
 date: 2026-05-14 20:00:00 +0900
 categories: [RL]
 tags: [RL, Actor, Critic]
+math: true
 ---
 
 # 12강 — Policy Gradient / Actor-Critic 강의 정리본
