@@ -276,7 +276,7 @@ DART: 전문가가 "이쪽으로 가라"고 액션을 주면, **실제로는 노
 | Action $a$ | steering/torque | next token |
 | Expert $\pi^*$ | human operator | human demonstrator |
 | Data $D$ | recorded trajectories | prompt-response pairs |
-| Objective | $\min E[L(a^*, \pi_\theta(s))]$ | $\min -\Sigma \log \pi_\theta(a^*\|s)$ (cross-entropy) |
+| Objective | $\min E[L(a^*, \pi_\theta(s))]$ | $\min -\Sigma \log \pi_\theta(a^* \mid s)$ (cross-entropy) |
 
 **교수님의 표현:**
 > "어떤 LLM이 있는데, SFT는 그 섬 언어를 내가 이렇게 입력을 줬으니까 이렇게 대답을 해야 돼라고 인풋과 출력을 같이 주는 거예요. 비헤이비어 클로닝이랑 같죠. LLM을 폴리시 모델로 본다면 BC와 같다라고 볼 수 있겠죠."
